@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsProduitActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="207dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/ic_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNom"
+        android:layout_width="218dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="24dp"
+        android:text="Nom"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="143dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:text="Description:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tvNom"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvNom"
+        app:layout_constraintTop_toBottomOf="@+id/tvNom" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="167dp"
+        android:layout_height="44dp"
+
+        android:layout_marginBottom="232dp"
+        android:text="Ceci ne veut rien dire..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/Description" />
+
+    <TextView
+        android:id="@+id/Prix"
+        android:layout_width="75dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="200dp"
+        android:text="Prix:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvDescription" />
+
+    <TextView
+        android:id="@+id/tvPrix"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+
+        android:layout_marginBottom="132dp"
+        android:text="prix"
+        android:textColor="@color/jaune"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Prix"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Prix" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

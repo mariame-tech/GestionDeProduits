@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="385dp"
+            android:layout_height="381dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/beauty"
+
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="75dp"
+            android:textColor="@color/jaune"
+            android:text="Chez nous chaque femme est Reine" />
+        <TextView
+            android:id="@+id/slogan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="425dp"
+            android:layout_marginLeft="95dp"
+            android:textColor="@color/purple_200"
+            android:text="Votre sourire notre bonheur" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="270dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="480dp"
+            android:shadowColor="@color/purple_200"
+
+            android:layout_height="80dp"
+            android:textColor="@color/purple_200"
+            android:text="Visitez notre site"/>
+
+
+</RelativeLayout>

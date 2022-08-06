@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Myapplication</string>
+    <string-array name="produits">
+        <item>produit1</item>
+        <item>produit2</item>
+        <item>produit3</item>
+        <item>produit4</item>
+        <item>produit5</item>
+    </string-array>
+
+    <!--titreAppli-->
+    <string name="titre_appli">CosmEthics</string>
+
+
+</resources>
